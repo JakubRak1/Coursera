@@ -8,26 +8,59 @@ div {
 #all {
 	width:100%;
 }
-.header{
+
+#first{
+	
+	background-color: blue;
 	font-size: 125%;
 	color: yellow;
-	background-color: green;
-	width:25%;
-	text-align: center;
+	width: 25%;
 	position: relative;
-	float: right;
+	left: 75%;
+	bottom: 75%;
+	text-align: center;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
 }
-#kolumna1{
+#second {
+	background-color: green;
+	font-size: 125%;
+	color: yellow;
+	width: 25%;
+	text-align: center;
+	position: relative;
+	left: 75%;
+	bottom: 75%;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#third {
+	background-color: yellow;
+	color:black;
+	font-size: 125%;
+	width: 25%;
+	text-align: center;
+	position: relative;
+	left: 75%;
+	bottom: 75%;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.kolumna1{
 	border: 1px solid black;
 	float:left;
 	font-size: 100%;
 	background-color: #494949;
 	color: white;
-}
+	padding-left: 10px;
+	text-align: left;
+	}
 .col_lg_3 {
-	width: 33.33%;
+	width: 30%;
+	margin-left: 35px;
+	
+	
+
 }
 header {
 	margin-top: 25px;
