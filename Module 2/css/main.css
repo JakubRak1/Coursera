@@ -55,6 +55,7 @@ header {
 	text-align: center;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
+	margin-bottom: 15px;
 }
 
 #second {
@@ -68,6 +69,7 @@ header {
 	bottom: 75%;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
+	margin-bottom: 15px;
 }
 
 #third {
@@ -81,6 +83,7 @@ header {
 	bottom: 75%;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
+	margin-bottom: 15px;
 }
 
 .style{
@@ -89,8 +92,10 @@ header {
 	font-size: 100%;
 	background-color: #494949;
 	color: white;
-	padding-left: 10px;
+	padding-left: 2.5%;
+	padding-bottom: 10px;
 	text-align: left;
+	padding-bottom: 15px;
 	}
 
 
