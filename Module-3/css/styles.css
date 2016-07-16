@@ -1,0 +1,108 @@
+        /* heading */
+        
+        * {
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        #header_nav {
+            background-color: #666699;
+            border-radius: 0;
+            border: 0;
+        }
+        
+        #header_title {
+            font-size: 4vw;
+        }
+        
+        #header_title:hover {
+            text-decoration: none;
+            color: white;
+        }
+        
+        #link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        
+        #samples {
+            text-decoration: none;
+            list-style: none;
+            background-color: #666699;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        #samples #link {
+            font-weight: normal;
+        }
+        
+        #samples li:nth-child(1) {
+            padding-top: 15px;
+        }
+        
+        #nav_samples {
+            padding-left: 0px;
+            padding-right: 0px;
+            max-height: 178px;
+            overflow: hidden;
+            
+        }
+        /* heading */
+        
+        h1 {
+            font-size: 48px;
+            padding-bottom: 25px;
+            margin-top: 0px;
+        }
+        
+        #single {
+            background-color: #666699;
+            color: white;
+            border: black solid 1px;
+        }
+        
+        #text {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .navbar-fixed-top {
+            position: relative;
+        }
+        
+        @media (min-width: 992px) {
+            #header_nav {
+                height: 5vw;
+                padding: 5px 0 5px 0;
+            }
+            #samples {
+                display: none;
+            }
+            .return {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+            #header_nav {
+                padding-bottom: 5px;
+            }
+            #samples {
+                display: none;
+            }
+            .return {
+                display: none;
+            }
+            #single {
+                margin-bottom: 20px;
+                margin-left: 20px;
+                clear: both;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            #single {
+                margin-bottom: 20px;
+            }
+        }
